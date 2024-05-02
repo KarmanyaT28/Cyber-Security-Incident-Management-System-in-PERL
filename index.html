@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security Incident Management</title>
+</head>
+<body>
+    <h1>Cyber Security Incident Management</h1>
+    <form action="auth.pl" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+        <input type="radio" id="mysql" name="db_type" value="mysql" checked>
+        <label for="mysql">MySQL</label>
+        <input type="radio" id="pgsql" name="db_type" value="pgsql">
+        <label for="pgsql">PostgreSQL</label><br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
